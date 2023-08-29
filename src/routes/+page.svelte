@@ -81,6 +81,7 @@
        <Sensor title="AIR TEMP (℃)" value={dht11.temperature} icon="mdi:temperature" />
        <Sensor title="HUMIDITY (%RH)" value={dht11.humidity} icon="mdi:water" />
        <Sensor title="CARBON MONOXIDE (CO)" value={mq135.co} icon="mdi:molecule-co" />
+       <Sensor title="CARBON DIOXIDE (CO2)" value={mq135.co2} icon="mdi:molecule-co2" />
        <Sensor title="AMMONIUM (NH4)" value={mq135.nh4} icon="mdi:molecule" />
        <Sensor title="TOLUENE (CH3)" value={mq135.toluene} icon="mdi:molecule" />
        <Sensor title="ALCOHOL" value={mq135.alcohol} icon="mdi:water-opacity" />
