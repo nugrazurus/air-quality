@@ -66,6 +66,11 @@
     })
 </script>
 
+<svelte:head>
+    <title>Air Quality</title>
+    <meta name="description" content="This is an information about air quality in Bintaro">
+</svelte:head>
+
 <div class="container xl:mx-auto px-10 max-w-screen-xl">
     <div class="text-left my-4">
         <h1 class="text-4xl font-semibold">Air quality in Bintaro</h1>
